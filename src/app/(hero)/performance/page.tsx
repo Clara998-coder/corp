@@ -1,14 +1,18 @@
-import Hero from '@/components/hero'
+ import Hero from '@/components/hero'
 import React from 'react'
 import performanceSrc from '/public/performance.jpeg'
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Performance',
+  title: 'Performance',  
 }
+
+
+
 
 export default function Page() {
   return (
-    <Hero imgUrl={performanceSrc} altTxt='Performance' content='Performance'/>
+    <Hero imgUrl={performanceSrc} altTxt='Performance' content='We serve high performance applications.'/>
   )
 }
+  
